@@ -1,9 +1,7 @@
 'use client';
-import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
 const Navbar = () => {
-  const pathname = usePathname();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   

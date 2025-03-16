@@ -50,7 +50,8 @@ export default function Contact() {
       } else {
         throw new Error(data.error || 'Failed to send message');
       }
-    } catch (error) {
+    } catch (error: any) {
+      console.error('Error sending message:', error.message);
       setStatus({
         type: 'error',
         message: 'Failed to send message. Please try again.'
