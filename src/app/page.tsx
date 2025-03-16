@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex-1 text-center md:text-left max-w-3xl">
           <div className="space-y-6">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Hi, I'm <span className="text-blue-600 inline-block">Muhammad Usman</span>
+              Hi, I&apos;m <span className="text-blue-600 inline-block">Muhammad Usman</span>
             </h1>
             <h2 className="text-2xl md:text-4xl text-gray-600 font-semibold">
               Full Stack Developer

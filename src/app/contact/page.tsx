@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
@@ -50,7 +51,8 @@ export default function Contact() {
       } else {
         throw new Error(data.error || 'Failed to send message');
       }
-    } catch (error) {
+    } catch (error: unknown) {
+      console.error('Error sending message:', error instanceof Error ? error.message : error);
       setStatus({
         type: 'error',
         message: 'Failed to send message. Please try again.'
