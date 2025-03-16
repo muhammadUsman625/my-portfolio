@@ -71,20 +71,7 @@ export default function Contact() {
       <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-white rounded-2xl shadow-lg p-8">
           <h2 className="text-2xl font-bold mb-6 text-gray-800">Contact Information</h2>
-          <div className="space-y-6">
-            <div className="flex items-start space-x-4">
-              <div className="bg-blue-50 p-3 rounded-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg text-gray-800">Address</h3>
-                <p className="text-gray-600 mt-1">House no j-152 charnal road near pathan masjid keamari, karachi</p>
-              </div>
-            </div>
-            
+          <div className="space-y-6">           
             <div className="flex items-start space-x-4">
               <div className="bg-blue-50 p-3 rounded-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
