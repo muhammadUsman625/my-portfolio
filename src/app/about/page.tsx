@@ -38,7 +38,7 @@ export default function About() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start gap-2">
                   <span className="text-blue-600 mt-1">•</span>
-                  <span>Develop user-facing features with Angular 2 and React.js</span>
+                  <span>Develop user-facing features with Angular and React.js</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-blue-600 mt-1">•</span>

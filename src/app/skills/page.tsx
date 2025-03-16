@@ -17,7 +17,7 @@ const SkillCategory = ({ title, skills }: { title: string; skills: string[] }) =
 export default function Skills() {
   const skillCategories = {
     "Frontend Development": [
-      "Angular 2",
+      "Angular",
       "React.js",
       "HTML5",
       "CSS3",
